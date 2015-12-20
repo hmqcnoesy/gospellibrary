@@ -98,25 +98,23 @@ hr {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 4em;
+	padding-bottom: 3em;
 	overflow-y: auto;
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.875);
     max-height: 80%;
 }
 
-#divBottom > div > p,
-#divBottom > div > h6 {
-    padding: 1em;
+#divBottom > div > p {
+    padding: 1em 1.5em 0 1em;
+    font-size: 75%;
 }
 
 #divBottom > input:checked + label + div {
 	display: block;
-	/*transition: opacity 0.5s;*/
 }
 
 #divBottom > input:not(:checked) + label + div {
 	display: none;
-	/*transition: opacity 0.25s;*/
 	z-index: -99;
 }
 
@@ -127,7 +125,7 @@ hr {
 	cursor: pointer;
 	background-color: #b94949;
 	color: #FEFDF8;
-	font-size: 2.5em;
+	font-size: 1.25em;
 	padding: 0.2em;
 	line-height: 60%;
 	border-radius: 50%;
