@@ -77,7 +77,7 @@ hr {
 }
 
 #divBottom > input + label:hover svg {
-	fill: #b94949;
+    fill: #b94949;
 }
 
 #divBottom > input:checked + label {
@@ -130,6 +130,17 @@ hr {
 	line-height: 60%;
 	border-radius: 50%;
 	font-weight: bold;
+}
+
+#divBottom > div > p > input + label {
+    margin: 0.25em;
+    padding: 0.25em;
+    border: 0.25em solid #354555;
+    cursor: pointer;
+}
+
+#divBottom > div > p > input:checked + label {
+    border-color: #b94949;
 }
 
 
